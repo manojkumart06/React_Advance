@@ -11,7 +11,7 @@ function Hero() {
       </section>
       <section className={style.content}>
         <h4>Are you ready to ?</h4>
-        <h1>Be a Tech Wizards</h1>
+        <h1>Be a Tech Wizard</h1>
         <p>
         Discover how seasoned programmers tackle challenges live. While watching pre-planned
         tutorials can be beneficial, grasping how programmers approach problem-solving is priceless.

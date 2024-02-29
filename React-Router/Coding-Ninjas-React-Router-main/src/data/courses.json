@@ -244,5 +244,239 @@
                 "details": "The DELETE statement is used to delete existing records in a table."
             }
         ]
-    }
-]
+    },
+    {
+          "id": "id-py3j98cn3",
+          "title": "Python Programming",
+          "description": "Python is a high-level, interpreted programming language known for its simplicity and versatility.",
+          "img": "https://cdn-icons-png.flaticon.com/512/1822/1822899.png",
+          "chapters": [
+            {
+              "chapter": 1,
+              "title": "Introduction to Python",
+              "description": "Introduction to Python programming language.",
+              "details": "Overview of Python, its history, and basic syntax."
+            },
+            {
+              "chapter": 2,
+              "title": "Variables and Data Types",
+              "description": "Variables and Data Types in Python",
+              "details": "Understanding different data types in Python and how to work with variables."
+            },
+            {
+              "chapter": 3,
+              "title": "Control Flow Statements",
+              "description": "Control Flow Statements in Python",
+              "details": "Learn about if statements, loops, and control flow in Python."
+            },
+            {
+              "chapter": 4,
+              "title": "Functions",
+              "description": "Functions in Python",
+              "details": "Understanding functions, parameters, and return values in Python."
+            },
+            {
+              "chapter": 5,
+              "title": "Lists, Tuples, and Dictionaries",
+              "description": "Lists, Tuples, and Dictionaries in Python",
+              "details": "Working with different data structures in Python."
+            },
+            {
+              "chapter": 6,
+              "title": "File Handling",
+              "description": "File Handling in Python",
+              "details": "Reading from and writing to files in Python."
+            }
+          ]
+        },
+        {
+          "id": "id-html7dnsa",
+          "title": "HTML",
+          "description": "HTML is the standard markup language for creating web pages.",
+          "img": "https://cdn-icons-png.flaticon.com/512/888/888859.png",
+          "chapters": [
+            {
+              "chapter": 1,
+              "title": "Introduction to HTML",
+              "description": "Introduction to HTML",
+              "details": "Overview of HTML, its structure, and basic elements."
+            },
+            {
+              "chapter": 2,
+              "title": "HTML Elements",
+              "description": "Basic HTML Elements",
+              "details": "Learn about commonly used HTML elements such as headings, paragraphs, lists, etc."
+            },
+            {
+              "chapter": 3,
+              "title": "HTML Forms",
+              "description": "HTML Forms",
+              "details": "Creating forms in HTML to collect user input."
+            },
+            {
+              "chapter": 4,
+              "title": "HTML5 Semantic Elements",
+              "description": "HTML5 Semantic Elements",
+              "details": "Understanding semantic HTML5 elements for better structure and accessibility."
+            },
+            {
+              "chapter": 5,
+              "title": "HTML Tables",
+              "description": "HTML Tables",
+              "details": "Creating and styling tables in HTML."
+            },
+            {
+              "chapter": 6,
+              "title": "HTML5 Multimedia",
+              "description": "HTML5 Multimedia Elements",
+              "details": "Using multimedia elements like audio, video, and canvas in HTML5."
+            }
+          ]
+        },
+        {
+          "id": "id-css65dfn",
+          "title": "CSS",
+          "description": "CSS is a style sheet language used for describing the presentation of a document written in HTML.",
+          "img": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+          "chapters": [
+            {
+              "chapter": 1,
+              "title": "Introduction to CSS",
+              "description": "Introduction to CSS",
+              "details": "Overview of CSS, its syntax, and basic concepts."
+            },
+            {
+              "chapter": 2,
+              "title": "CSS Selectors",
+              "description": "CSS Selectors",
+              "details": "Learn about different types of CSS selectors and how to use them."
+            },
+            {
+              "chapter": 3,
+              "title": "CSS Box Model",
+              "description": "CSS Box Model",
+              "details": "Understanding the CSS box model and how elements are displayed and styled."
+            },
+            {
+              "chapter": 4,
+              "title": "CSS Flexbox",
+              "description": "CSS Flexbox Layout",
+              "details": "Introduction to CSS Flexbox for creating flexible layouts."
+            },
+            {
+              "chapter": 5,
+              "title": "CSS Grid",
+              "description": "CSS Grid Layout",
+              "details": "Understanding CSS Grid for advanced layout design."
+            },
+            {
+              "chapter": 6,
+              "title": "Responsive Web Design",
+              "description": "Responsive Web Design with CSS",
+              "details": "Creating responsive layouts using CSS media queries and other techniques."
+            }
+          ]
+        },
+        {
+            "id": "id-java982hd",
+            "title": "Java Programming",
+            "description": "Java is a widely-used, object-oriented programming language known for its portability and versatility.",
+            "img": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+            "chapters": [
+              {
+                "chapter": 1,
+                "title": "Introduction to Java",
+                "description": "Introduction to Java programming language.",
+                "details": "Overview of Java, its history, and basic syntax."
+              },
+              {
+                "chapter": 2,
+                "title": "Variables and Data Types",
+                "description": "Variables and Data Types in Java",
+                "details": "Understanding different data types in Java and how to work with variables."
+              },
+              {
+                "chapter": 3,
+                "title": "Control Flow Statements",
+                "description": "Control Flow Statements in Java",
+                "details": "Learn about if statements, loops, and control flow in Java."
+              },
+              {
+                "chapter": 4,
+                "title": "Object-Oriented Programming",
+                "description": "Object-Oriented Programming in Java",
+                "details": "Understanding classes, objects, inheritance, polymorphism, and encapsulation in Java."
+              },
+              {
+                "chapter": 5,
+                "title": "Exception Handling",
+                "description": "Exception Handling in Java",
+                "details": "Handling errors and exceptions in Java programs."
+              },
+              {
+                "chapter": 6,
+                "title": "Collections Framework",
+                "description": "Collections Framework in Java",
+                "details": "Working with collections such as lists, sets, and maps in Java."
+              },
+              {
+                "chapter": 7,
+                "title": "File Handling",
+                "description": "File Handling in Java",
+                "details": "Reading from and writing to files in Java."
+              }
+            ]
+          },
+          {
+            "id": "id-cplusplus55pl",
+            "title": "C++ Programming",
+            "description": "C++ is a powerful, general-purpose programming language known for its efficiency and performance.",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+            "chapters": [
+              {
+                "chapter": 1,
+                "title": "Introduction to C++",
+                "description": "Introduction to C++ programming language.",
+                "details": "Overview of C++, its history, and basic syntax."
+              },
+              {
+                "chapter": 2,
+                "title": "Variables and Data Types",
+                "description": "Variables and Data Types in C++",
+                "details": "Understanding different data types in C++ and how to work with variables."
+              },
+              {
+                "chapter": 3,
+                "title": "Control Flow Statements",
+                "description": "Control Flow Statements in C++",
+                "details": "Learn about if statements, loops, and control flow in C++."
+              },
+              {
+                "chapter": 4,
+                "title": "Functions",
+                "description": "Functions in C++",
+                "details": "Understanding functions, parameters, and return values in C++."
+              },
+              {
+                "chapter": 5,
+                "title": "Object-Oriented Programming",
+                "description": "Object-Oriented Programming in C++",
+                "details": "Understanding classes, objects, inheritance, polymorphism, and encapsulation in C++."
+              },
+              {
+                "chapter": 6,
+                "title": "STL - Standard Template Library",
+                "description": "STL in C++",
+                "details": "Working with containers, algorithms, and iterators in the C++ Standard Template Library."
+              },
+              {
+                "chapter": 7,
+                "title": "File Handling",
+                "description": "File Handling in C++",
+                "details": "Reading from and writing to files in C++."
+              }
+            ]
+          }
+        ]
+           
+

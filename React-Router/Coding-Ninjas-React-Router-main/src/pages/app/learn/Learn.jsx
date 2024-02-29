@@ -14,7 +14,7 @@ function Learn() {
       <div className={style.top_head}>
         {/* Task4: Create Link to go back to the Courses page */}
         <Link to = '/courses' className={style.back}>
-          <img src="https://cdn-icons-png.flaticon.com/128/11519/11519951.png" />
+          <img src="https://cdn-icons-png.flaticon.com/128/11519/11519951.png" alt="learn-logo" />
         </Link>
         
 

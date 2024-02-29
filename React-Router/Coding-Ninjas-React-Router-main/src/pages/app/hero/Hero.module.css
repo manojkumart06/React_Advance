@@ -5,7 +5,9 @@ header {
     width: 100%;
     background-size: cover;
     text-align: center;
-    background-color: var(--clr-bg-contrast);
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+  
 }
 
 .logo_wrapper {
@@ -13,7 +15,7 @@ header {
     align-items: center;
     justify-content: center;
     flex: 1;
-    background-color: var(--clr-bg);
+    background-image: linear-gradient( 95deg,  rgba(7,7,9,1) 1%, rgba(27,24,113,1) 93.2% );
     margin: 0px;
     clip-path: polygon(0 0, 100% 0, 71% 100%, 0 100%);
 }
@@ -46,7 +48,7 @@ header {
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--clr-accent);
+    color: rgb(18, 18, 16);
 }
 
 .content p {
