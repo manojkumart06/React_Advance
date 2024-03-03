@@ -8,6 +8,10 @@ const notificationSlice = createSlice({
     name : 'notification',
     initialState,
     reducers : {
+        //reseting notification
+        reset : (state, action) => {
+            state.message = "";
+        }
 
     },
     //not belong notification slice
@@ -19,4 +23,5 @@ const notificationSlice = createSlice({
 })
 
 export const notificationReducer = notificationSlice.reducer;
+export const resetNotification = notificationSlice.actions.reset;
 export const notificationSelector = (state) => state.notificationReducer.message;
