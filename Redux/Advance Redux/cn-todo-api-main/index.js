@@ -2,19 +2,20 @@ const express = require("express");
 const cors = require("cors");
 const todoRoutes = require("./todoRoutes");
 
-const server = express();
+const app = express();
 
 // Enable CORS for all routes
-server.use(cors());
+app.use(cors());
+app.use(express.json()); // Add this line to parse JSON requests
 
-// Define routes
-server.use("/api/todos/", todoRoutes.router);
+// Use your todoRoutes
+app.use("/api/todos", todoRoutes.router);
 
-server.get("/", (req, res) => {
-  res.send("Welcome to Utility api");
+app.get("/", (req, res) => {
+  res.send("Welcome to Utility API");
 });
 
 const PORT = 4100;
-server.listen(PORT, () => {
-  console.log(`Server is listening at ${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 });
