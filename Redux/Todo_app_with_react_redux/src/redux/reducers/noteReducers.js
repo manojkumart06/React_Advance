@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit"
 
 
 const initialState = {
-    notes : [{text:"included note app with the todoApp", createdOn : new Date()}]
+    notes : [{text:"included note app with the todoApp", createdOn : new Date().toDateString()}]
 }
 
 const noteSlice = createSlice({
@@ -15,7 +15,7 @@ const noteSlice = createSlice({
         add : (state, action) => {
             state.notes.push({
                 text : action.payload,
-                createdOn : new Date()
+                createdOn : new Date().toDateString()
             })
         },
         //Deleting note

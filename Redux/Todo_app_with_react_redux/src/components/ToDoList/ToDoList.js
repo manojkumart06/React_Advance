@@ -1,6 +1,8 @@
-import { todoActions, todoSelector } from "../../redux/reducers/todoReducers";
+import { useEffect } from "react";
+import { getInitialStateasync, todoActions, todoSelector } from "../../redux/reducers/todoReducers";
 import "./ToDoList.css";
 import { useSelector,useDispatch } from "react-redux";
+// import axios from "axios";
 // import { toggleTodo } from "../../redux/actions/todoActions";
 
 function ToDoList() {
@@ -11,6 +13,28 @@ function ToDoList() {
 
   //getting toggle action
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getInitialStateasync());
+    // console.log("Fetching todos..."); // Log before the fetch request
+    // fetch("http://localhost:4100/api/todos")
+    //   .then(res => res.json())
+    //   .then(parsedJson => {
+    //     console.log("Todo data received:", parsedJson); // Log after successful fetch
+    //   })
+    //   .catch((error) => {
+    //     console.log('Unable to fetch the todos API:', error); // Log if there's an error
+    //   });
+
+
+    // axios.get("http://localhost:4100/api/todos")
+    //   .then(res => {
+    //     console.log(res.data);
+    //     dispatch(todoActions.setInitialstate(res.data));
+    //   })
+      
+  }, []);
+  
 
   return (
     <div className="container">
